@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 import imageio
 from config import config_parser
 from ibrnet.sample_ray import RaySamplerSingleImage, rng

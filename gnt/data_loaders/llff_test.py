@@ -172,7 +172,6 @@ class LLFFTestDataset(Dataset):
             crop_w = int(400 * 600 / crop_h)
             crop_w = crop_w + 1 if crop_w % 2 == 1 else crop_w
             
-            # TODO: depth is not processed here
             if len(src_depths) > 0:
                 rgb, camera, src_rgbs, src_cameras, src_depths = random_crop(rgb, camera, src_rgbs, src_cameras,
                                                                 (crop_h, crop_w), src_depths=src_depths)

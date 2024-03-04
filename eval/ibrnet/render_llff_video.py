@@ -15,7 +15,7 @@
 
 from torch.utils.data import Dataset
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 from torch.utils.data import DataLoader
 import imageio
 from config import config_parser
