@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd eval/
+
 CUDA_VISIBLE_DEVICES=0 python eval.py --config ../configs/eval_llff.txt --eval_scenes horns &
 CUDA_VISIBLE_DEVICES=1 python eval.py --config ../configs/eval_llff.txt --eval_scenes trex &
 CUDA_VISIBLE_DEVICES=2 python eval.py --config ../configs/eval_llff.txt --eval_scenes room &
